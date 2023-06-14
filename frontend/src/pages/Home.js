@@ -4,9 +4,9 @@ import { useNavigate } from 'react-router-dom'
 import TodoList from '../components/TodoList'
 import BackDrop from './../components/BackDrop'
 import AddTask from './../components/AddTask'
-import leetcodeimg from './../assets/social/leetcode.png'
-import gfgimg from './../assets/social/gfg.png'
-import instaimg from './../assets/social/instagram.png'
+// import leetcodeimg from './../assets/social/leetcode.png'
+// import gfgimg from './../assets/social/gfg.png'
+// import instaimg from './../assets/social/instagram.png'
 import linkedinimg from './../assets/social/linkedin.png'
 import githubimg from './../assets/social/github.png'
 import { useDispatch, useSelector } from 'react-redux'
@@ -47,11 +47,10 @@ export default function Home() {
       <footer className={styles['footer']}>
         <h3>Todo</h3>
         <div className={styles['social-container']}>
-          <a href='https://www.instagram.com/kvi5hnu/'><img src={instaimg} alt="instagram" /></a>
-          <a href='https://www.linkedin.com/in/vi5hnukumar/'><img src={linkedinimg} alt="linkedin" /></a>
-          <a href='https://github.com/vi5hnuu'><img src={githubimg} alt="github" /></a>
-          <a href='https://leetcode.com/Vi5hnukumar/'><img src={leetcodeimg} alt="leetcode" /></a>
-          <a href='https://auth.geeksforgeeks.org/user/vi5hnu/practice'><img src={gfgimg} alt="geeksforgeeks" /></a>
+          
+          <a href='https://www.linkedin.com/in/anjali-raj-5796a71a7/'><img src={linkedinimg} alt="linkedin" /></a>
+          <a href='https://github.com/AnjaliRaj05'><img src={githubimg} alt="github" /></a>
+      
         </div>
       </footer>
     </main>
